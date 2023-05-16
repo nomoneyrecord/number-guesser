@@ -18,3 +18,5 @@ const updateScore = (winner) => winner === 'human' ? humanScore++ : computerScor
 
 
 const advanceRound = () => computerScore >= humanScore || humanScore >= computerScore ? currentRoundNumber++ : 0; 
+
+
